@@ -1,4 +1,3 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './header/Header';
 import Footer from './footer/Footer';
@@ -12,7 +11,7 @@ function App() {
     <div className="">
       <Header />
       <Routes>
-        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
