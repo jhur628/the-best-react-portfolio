@@ -8,14 +8,33 @@ import AboutMe from './aboutMe/AboutMe';
 import Portfolio from './portfolio/Portfolio';
 import Contact from './contact/Contact';
 import Resume from './resume/Resume';
+import AboutMePic from './assets/about-me.jpg'
+import ResumePic from './assets/Resume.jpg'
 
 function App() {
   const [ image, setImage ] = useState('')
+  const pickImage = (element) => {
+    console.log(element)
+    setImage(element)
+    setImage('')
+  }
+
+  const imageSwitch = (image) => {
+    switch (image) {
+      case 'about-me' :
+        return AboutMePic;
+        break;
+      case 'resume' :
+        return ResumePic;
+        break;
+    }
+  }
+
   return (
     <div className="da-body">
-      <Header />
+      <Header pickImage={pickImage}/>
       <div className='container'>
-        <Image />
+        <img src={imageSwitch(image)}/>
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
