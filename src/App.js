@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './header/Header';
 import Image from './image/Image'
 import Footer from './footer/Footer';
@@ -16,17 +16,20 @@ function App() {
   const pickImage = (element) => {
     console.log(element)
     setImage(element)
-    setImage('')
   }
 
   const imageSwitch = (image) => {
-    switch (image) {
-      case 'about-me' :
-        return AboutMePic;
-        break;
-      case 'resume' :
-        return ResumePic;
-        break;
+    // switch (image) {
+    //   case 'about-me' :
+    //     return AboutMePic;
+    //     break;
+    //   case 'resume' :
+    //     return ResumePic;
+    // }
+    if (image === "about-me") {
+      return AboutMePic
+    } else if (image === "resume") {
+      return ResumePic
     }
   }
 
