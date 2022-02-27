@@ -1,5 +1,7 @@
 footer {
     display: flex;
+   
+    margin-bottom: 2px;
     height: 10%;
     width: 100%;
 }
