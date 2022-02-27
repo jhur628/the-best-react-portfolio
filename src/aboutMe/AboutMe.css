@@ -1,0 +1,9 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 70%;
+}
