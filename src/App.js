@@ -10,6 +10,7 @@ import Contact from './contact/Contact';
 import Resume from './resume/Resume';
 import AboutMePic from './assets/about-me.jpg'
 import ResumePic from './assets/Resume.jpg'
+import PortfolioPic from './assets/portfolio.jpg';
 
 function App() {
   const [ image, setImage ] = useState('about-me')
@@ -25,6 +26,9 @@ function App() {
         break;
       case 'resume' :
         return ResumePic;
+        break;
+      case 'portfolio' :
+        return PortfolioPic;
         break;
     }
   }
