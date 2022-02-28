@@ -9,7 +9,7 @@ export default function AboutMe() {
             </p>
             <p>
                 I worked in social services and counseling for about seven years. It was rewarding, but at the same time, it was very taxing. I am very grateful for the experience and lessons within the field.
-                I learned how to be more disciplines, how to be part of a team, how to learn, how to problem solve, and how to move forward.
+                I learned how to be more disciplined, how to be part of a team, how to learn, how to problem solve, and how to move forward.
             </p>
             <p>
                 I have always wanted to learn to code, and 2021, I made the first step towards becoming a full stack developer. I enrolled in Northwestern's coding full-stack bootcamp. I realized immediately this is where I belong.
