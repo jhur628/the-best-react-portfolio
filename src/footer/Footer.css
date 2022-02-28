@@ -1,7 +1,15 @@
 footer {
     display: flex;
-
+    justify-content: center;
+    margin: 4rem;
     margin-bottom: 2px;
     height: 10%;
-    width: 100%;
+    width: 97%;
+    position: relative;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
 }

@@ -1,12 +1,18 @@
 import NavBar from './NavBar';
 import './Header.css'
+import { useSpring, animated } from 'react-spring';
 
-export default function Header(props) {
-    const { pickImage } = props;
+export default function Header({pickImage}) {
+    const props = useSpring({ to: { opacity: 1, marginTop: 0 }, from: { opacity: 0, marginTop: -500 } })
+
     return (
-        <header className='header-nav'>
+        
+        <animated.div style={props}>
+           <header className='header-nav'>
             <h1>John Hur</h1>
             <NavBar pickImage={pickImage}/>
-        </header>
+        </header> 
+        </animated.div>
+        
     )
 }
