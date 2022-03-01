@@ -2,7 +2,6 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Header from './header/Header';
-import Image from './image/Image'
 import Footer from './footer/Footer';
 import AboutMe from './aboutMe/AboutMe';
 import Portfolio from './portfolio/Portfolio';
