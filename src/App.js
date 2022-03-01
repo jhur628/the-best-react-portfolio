@@ -38,10 +38,10 @@ function App() {
       <div className='container'>
         <img className='image' src={imageSwitch(image)}/>
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/the-best-react-portfolio" element={<AboutMe />} />
+          <Route path="/the-best-react-portfolio/portfolio" element={<Portfolio />} />
+          <Route path="/the-best-react-portfolio/contact" element={<Contact />} />
+          <Route path="/the-best-react-portfolio/resume" element={<Resume />} />
         </Routes>
       </div>
       <Footer />
