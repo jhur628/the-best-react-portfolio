@@ -39,7 +39,7 @@ function App() {
         <img className='image' src={imageSwitch(image)}/>
         <Routes>
           <Route path="/the-best-react-portfolio" element={<AboutMe />} />
-          <Route path="/the-best-react-portfolio/portfolio" element={<Portfolio />} />
+          <Route pickImage={pickImage} path="/the-best-react-portfolio/portfolio" element={<Portfolio />} />
           <Route path="/the-best-react-portfolio/contact" element={<Contact />} />
           <Route path="/the-best-react-portfolio/resume" element={<Resume />} />
         </Routes>

@@ -1,4 +1,4 @@
-export default projectData = [
+export const projectData = [
     { 
         title: "Tourism Planner(AKA Tour Baagii)", 
         description: "Baagii, Stephen, Brian, and John... The DREAM TEAM came together, and made the best web application you have ever seen. Have you ever wanted to go on an adventure to Dubai? To Seoul? To Rome? With Tour Baagii, you can plan out your trip. Enter a city name and click the submit button, and you'll see all the attractions in the city. WOW! You can save attractions and plan a whole adventure. Tour Buddy was taken... Hence, Tour Baagii.", 
@@ -17,4 +17,4 @@ export default projectData = [
         deployedApp: "https://tenant-buddy.herokuapp.com/", 
         repository: "https://github.com/Dog-with-two-Gs/tenant-buddy" 
     },
-]
+];

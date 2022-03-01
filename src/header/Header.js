@@ -2,7 +2,7 @@ import NavBar from './NavBar';
 import './Header.css'
 import { useSpring, animated } from 'react-spring';
 
-export default function Header({pickImage}) {
+export default function Header({ pickImage }) {
     const props = useSpring({ 
         to: { opacity: 1, marginTop: 0 }, 
         from: { opacity: 0, marginTop: -1000 },
