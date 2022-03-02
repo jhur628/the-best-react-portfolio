@@ -10,7 +10,6 @@ export default function Header({ pickImage }) {
     })
 
     return (
-        
         <animated.div style={props}>
             <header className='header-nav'>
                 <h1>John Hur</h1>
