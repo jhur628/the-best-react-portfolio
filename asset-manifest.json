@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/the-best-react-portfolio/static/css/main.9c08b350.css",
-    "main.js": "/the-best-react-portfolio/static/js/main.dfd3da65.js",
+    "main.css": "/the-best-react-portfolio/static/css/main.810bcbb1.css",
+    "main.js": "/the-best-react-portfolio/static/js/main.594776a6.js",
     "static/js/787.dcbdf214.chunk.js": "/the-best-react-portfolio/static/js/787.dcbdf214.chunk.js",
     "static/media/about-me.jpg": "/the-best-react-portfolio/static/media/about-me.167f5b70e80f05a42101.jpg",
     "static/media/Resume.jpg": "/the-best-react-portfolio/static/media/Resume.45dd8bb121b43cec4666.jpg",
+    "static/media/TourismPlanner.jpg": "/the-best-react-portfolio/static/media/TourismPlanner.e1f64dfc90db2c4760d9.jpg",
+    "static/media/dibs.jpg": "/the-best-react-portfolio/static/media/dibs.a2cefca96edfaf084c86.jpg",
+    "static/media/techBlog.jpg": "/the-best-react-portfolio/static/media/techBlog.151ae890e7f3b2c67454.jpg",
     "static/media/portfolio.jpg": "/the-best-react-portfolio/static/media/portfolio.761ceab6df55af686cba.jpg",
+    "static/media/John Hur Resume.pdf": "/the-best-react-portfolio/static/media/John Hur Resume.3c0c669f78a7dfc6c179.pdf",
     "index.html": "/the-best-react-portfolio/index.html",
-    "main.9c08b350.css.map": "/the-best-react-portfolio/static/css/main.9c08b350.css.map",
-    "main.dfd3da65.js.map": "/the-best-react-portfolio/static/js/main.dfd3da65.js.map",
+    "main.810bcbb1.css.map": "/the-best-react-portfolio/static/css/main.810bcbb1.css.map",
+    "main.594776a6.js.map": "/the-best-react-portfolio/static/js/main.594776a6.js.map",
     "787.dcbdf214.chunk.js.map": "/the-best-react-portfolio/static/js/787.dcbdf214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c08b350.css",
-    "static/js/main.dfd3da65.js"
+    "static/css/main.810bcbb1.css",
+    "static/js/main.594776a6.js"
   ]
 }
