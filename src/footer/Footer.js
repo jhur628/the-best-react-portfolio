@@ -14,7 +14,7 @@ export default function Footer() {
             <footer>
                <div className='footer-links'>
                     <a href="https://github.com/jhur628" target="_blank"><FontAwesomeIcon icon={faFileCode}/>Github</a>
-                    <a href="https://github.com/jhur628" target="_blank"><FontAwesomeIcon icon={faAddressCard}/>LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/john-hur-b146aa21a/" target="_blank"><FontAwesomeIcon icon={faAddressCard}/>LinkedIn</a>
                 </div> 
             </footer>
         </animated.div>
