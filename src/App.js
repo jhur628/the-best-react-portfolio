@@ -17,7 +17,6 @@ import DibsPic from './assets/dibs.jpg';
 function App() {
   const [ image, setImage ] = useState('about-me')
   const pickImage = (element) => {
-    console.log(element)
     setImage(element)
   }
 
