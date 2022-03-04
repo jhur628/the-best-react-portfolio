@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import projectData from '../data/projectData';
 import Project from './Project'
 
@@ -13,6 +13,10 @@ export default function Portfolio({pickImage}) {
     });
 
     const pickProject = (work) => {setPwoject(projectData.find((proj)=> proj.imageString === work))};
+
+    useEffect(() => {
+        pickImage('tour-baagii')
+    }, [])
 
     const projects = projectData.map((project, i) => {
         return <button    
