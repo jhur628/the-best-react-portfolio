@@ -22,7 +22,7 @@ export const projectData = [
         description: "People are not great. Unfortunately, we usually have to share a whole apartment building with other people. That probably means we use the same laundry room. Wouldn't it be nice if you can reserve a laundry machine and avoid all your quirky neighbors. Now you can! With Dibs, you can make reservations for washing/drying machines. Gone are the days of seeing your floor in a pile next to the trash can. No more missing of a singular sock. Maybe the best way to co-exist is to avoid people altogether. Thank you, Dibs!", 
         deployedApp: "https://tenant-buddy.herokuapp.com/", 
         repository: "https://github.com/Dog-with-two-Gs/tenant-buddy" 
-    },
+    }
 ];
 
 export default projectData

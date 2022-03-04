@@ -5,11 +5,12 @@ footer {
     margin-bottom: 2px;
     height: 10%;
     width: 97%;
-    position: relative;
 }
 
 .footer-links {
     display: flex;
     flex-direction: row;
+    gap: 10px;
     align-content: space-around;
+    text-decoration: none;
 }

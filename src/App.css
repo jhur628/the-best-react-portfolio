@@ -1,8 +1,11 @@
-.da-body {
+body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 1%;
+  height: 100%;
+  background-color: #90AFC5;
+  color: #314f5e;
 }
 
 .container {
@@ -12,13 +15,28 @@
   width: 100%;
   height: 80%;
   margin-top: 2%;
+  position: static;
 }
 
 .image {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45%;
+  width: 800px;
   padding: 2%;
   border: solid 2% black;
+}
+
+a {
+  color: #2A3132;
+  font-size: 1.3rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #763626;
 }

@@ -44,7 +44,7 @@ function App() {
   }
 
   return (
-    <div className="da-body">
+    <body>
       <Header pickImage={pickImage}/>
       <div className='container'>
         <img className='image' src={imageSwitch(image)}/>
@@ -56,7 +56,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </div>
+    </body>
   );
 }
 
