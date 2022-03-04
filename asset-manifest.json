@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-best-react-portfolio/static/css/main.810bcbb1.css",
-    "main.js": "/the-best-react-portfolio/static/js/main.594776a6.js",
+    "main.js": "/the-best-react-portfolio/static/js/main.cfb4da56.js",
     "static/js/787.dcbdf214.chunk.js": "/the-best-react-portfolio/static/js/787.dcbdf214.chunk.js",
     "static/media/about-me.jpg": "/the-best-react-portfolio/static/media/about-me.167f5b70e80f05a42101.jpg",
     "static/media/Resume.jpg": "/the-best-react-portfolio/static/media/Resume.45dd8bb121b43cec4666.jpg",
@@ -12,11 +12,11 @@
     "static/media/John Hur Resume.pdf": "/the-best-react-portfolio/static/media/John Hur Resume.3c0c669f78a7dfc6c179.pdf",
     "index.html": "/the-best-react-portfolio/index.html",
     "main.810bcbb1.css.map": "/the-best-react-portfolio/static/css/main.810bcbb1.css.map",
-    "main.594776a6.js.map": "/the-best-react-portfolio/static/js/main.594776a6.js.map",
+    "main.cfb4da56.js.map": "/the-best-react-portfolio/static/js/main.cfb4da56.js.map",
     "787.dcbdf214.chunk.js.map": "/the-best-react-portfolio/static/js/787.dcbdf214.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.810bcbb1.css",
-    "static/js/main.594776a6.js"
+    "static/js/main.cfb4da56.js"
   ]
 }
