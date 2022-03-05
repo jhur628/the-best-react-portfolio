@@ -8,7 +8,7 @@ export default function AboutMe() {
                 My name is John Hur. Born in Germany June 28, 1990, I began my crazy existence.
             </p>
             <p>
-                I worked in social services and counseling for about seven years. It was rewarding, but at the same time, it was very taxing. I am very grateful for the experience and lessons within the field.
+                I worked in social services and counseling for about seven years. It was rewarding, but at the same time, it was very taxing. I am very grateful for the experience and lessons I've obtained within the field.
                 I learned how to be more disciplined, how to be part of a team, how to learn, how to problem solve, and how to move forward.
             </p>
             <p>

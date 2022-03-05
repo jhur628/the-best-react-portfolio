@@ -8,11 +8,12 @@ export default function Resume() {
             <a href={resume} download>
                 Download me
             </a>
-            <p>
-                The downloadable PDF file contains my resume.
+            <p>Front-End Proficiencies: HTML, CSS, front-end Javascript, React
+                <br></br>
+                Back-End Proficiencies: Node, Express, SQL, MongoDB, GraphQL
             </p>
             <p>
-                As this is my working portfolio, I will upload my downloadable resume file as often as possible. Stay tuned!
+                Please download my resume to see examples of my full-stack abilities!
             </p>
         </div>
     )
