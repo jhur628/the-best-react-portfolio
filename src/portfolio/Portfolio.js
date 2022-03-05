@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import projectData from '../data/projectData';
 import Project from './Project'
+import './Portfolio.css'
 
 export default function Portfolio({pickImage}) {
     const [ pwoject, setPwoject ] = useState({
@@ -19,19 +20,20 @@ export default function Portfolio({pickImage}) {
     }, [])
 
     const projects = projectData.map((project, i) => {
-        return <button    
+        return <button
+                className='project-buttons' 
                 onClick={() => {
                     pickImage(project.imageString);
                     pickProject(project.imageString);
                 }}
         >
-            {project.imageString}
+            {project.imageString.toUpperCase()}
         </button>
     })
     return (
         <div className="portfolio-container">
             <h1>My Projects</h1>
-            <div>
+            <div className='buttons-container'>
                 {projects}
             </div>
             <Project pwoject={pwoject} />

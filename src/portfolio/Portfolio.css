@@ -1,0 +1,26 @@
+.buttons-container {
+    display: flex;
+    gap: 15px;
+}
+
+.project-buttons {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #375E97;
+    color: #2bcdff;
+}
+
+.project-buttons:hover {
+    border: solid 2px #FFBB00;
+    color: #7cc41d;
+}
+
+.app-description {
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

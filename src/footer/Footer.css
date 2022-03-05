@@ -2,7 +2,6 @@ footer {
     display: flex;
     justify-content: center;
     margin: 4rem;
-    margin-bottom: 2px;
     height: 10%;
     width: 97%;
 }

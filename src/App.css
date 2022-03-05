@@ -3,9 +3,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 1%;
-  height: 100%;
-  background-color: #90AFC5;
-  color: #314f5e;
+  height: 98%;
+  width: 98%;
+  background-color: #375E97;
+  color: #FFBB00;
 }
 
 .container {
@@ -15,7 +16,6 @@ body {
   width: 100%;
   height: 80%;
   margin-top: 2%;
-  position: static;
 }
 
 .image {
@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: #2A3132;
+  color: #2bcdff;
   font-size: 1.3rem;
 }
 
@@ -38,5 +38,5 @@ a:link {
 
 a:hover {
   text-decoration: underline;
-  color: #763626;
+  color: #7cc41d;
 }
