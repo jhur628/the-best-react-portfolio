@@ -4,7 +4,7 @@ import './Resume.css'
 export default function Resume() {
     return (
         <div className="resume-container">
-            <h1>Resume:</h1>
+            <h1>Resume</h1>
             <a href={resume} download>
                 Download me
             </a>
