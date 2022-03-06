@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/the-best-react-portfolio/static/css/main.ca8870ee.css",
-    "main.js": "/the-best-react-portfolio/static/js/main.6e1519e7.js",
+    "main.css": "/the-best-react-portfolio/static/css/main.78dd34a3.css",
+    "main.js": "/the-best-react-portfolio/static/js/main.98086772.js",
     "static/js/787.dcbdf214.chunk.js": "/the-best-react-portfolio/static/js/787.dcbdf214.chunk.js",
+    "static/media/secret-image.jpg": "/the-best-react-portfolio/static/media/secret-image.e08627bc180a1d7a22a9.jpg",
     "static/media/about-me.jpg": "/the-best-react-portfolio/static/media/about-me.b74f9d60214278daddfd.jpg",
     "static/media/techBlog.jpg": "/the-best-react-portfolio/static/media/techBlog.7891d79ef05346464a8e.jpg",
     "static/media/Resume.jpg": "/the-best-react-portfolio/static/media/Resume.c919de61be022a38593f.jpg",
     "static/media/dibs.jpg": "/the-best-react-portfolio/static/media/dibs.ebfca4d7835add228014.jpg",
     "static/media/TourismPlanner.jpg": "/the-best-react-portfolio/static/media/TourismPlanner.e1f64dfc90db2c4760d9.jpg",
-    "static/media/portfolio.jpg": "/the-best-react-portfolio/static/media/portfolio.761ceab6df55af686cba.jpg",
     "static/media/John Hur Resume.pdf": "/the-best-react-portfolio/static/media/John Hur Resume.3c0c669f78a7dfc6c179.pdf",
     "index.html": "/the-best-react-portfolio/index.html",
-    "main.ca8870ee.css.map": "/the-best-react-portfolio/static/css/main.ca8870ee.css.map",
-    "main.6e1519e7.js.map": "/the-best-react-portfolio/static/js/main.6e1519e7.js.map",
+    "main.78dd34a3.css.map": "/the-best-react-portfolio/static/css/main.78dd34a3.css.map",
+    "main.98086772.js.map": "/the-best-react-portfolio/static/js/main.98086772.js.map",
     "787.dcbdf214.chunk.js.map": "/the-best-react-portfolio/static/js/787.dcbdf214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca8870ee.css",
-    "static/js/main.6e1519e7.js"
+    "static/css/main.78dd34a3.css",
+    "static/js/main.98086772.js"
   ]
 }
