@@ -12,6 +12,8 @@ import ResumePic from './assets/Resume.jpg';
 import TourismPlannerPic from './assets/TourismPlanner.jpg';
 import TechBlogPic from './assets/techBlog.jpg';
 import DibsPic from './assets/dibs.jpg';
+import NoteTakerPic from './assets/noteTaker.jpg';
+import RegexTutorialPic from './assets/regexTutorial.jpg'
 import SecretPic from './assets/secret-image.jpg';
 
 function App() {
@@ -36,6 +38,12 @@ function App() {
         break;
       case 'dibs' :
         return DibsPic;
+        break;
+      case 'note-taker' :
+        return NoteTakerPic;
+        break;
+      case 'regex-tutorial' :
+        return RegexTutorialPic;
         break;
       case 'secret-image' :
         return SecretPic;
