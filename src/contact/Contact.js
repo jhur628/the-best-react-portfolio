@@ -1,9 +1,16 @@
+import { useSpring, animated } from 'react-spring';
 import ContactForm from './ContactForm'
 import './Contact.css'
 
 export default function Contact() {
+    const props = useSpring({
+        to: { opacity: 1 },
+        from: { opacity: 0 },
+        delay: 200,
+    });
+
     return (
-        <div className='contact-container'>
+        <animated.div style={props} className='contact-container'>
             <h1>Contact</h1>
             <div className='contact-row'>
                 <div className='contact-info'>
@@ -14,6 +21,6 @@ export default function Contact() {
                 </div>
                 <ContactForm />
             </div>
-        </div>
+        </animated.div>
     )
 }

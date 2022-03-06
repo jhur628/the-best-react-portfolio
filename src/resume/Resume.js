@@ -1,9 +1,16 @@
+import { useSpring, animated } from 'react-spring';
 import resume from '../assets/John Hur Resume.pdf';
 import './Resume.css'
 
 export default function Resume() {
+    const props = useSpring({
+        to: { opacity: 1 },
+        from: { opacity: 0 },
+        delay: 200,
+    });
+
     return (
-        <div className="resume-container">
+        <animated.div style={props} className="resume-container">
             <h1>Resume</h1>
             <a href={resume} download>
                 Download me
@@ -15,6 +22,6 @@ export default function Resume() {
             <p>
                 Please download my resume to learn more about my abilities!
             </p>
-        </div>
+        </animated.div>
     )
 }

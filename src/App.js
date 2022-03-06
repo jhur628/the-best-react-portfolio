@@ -9,10 +9,10 @@ import Contact from './contact/Contact';
 import Resume from './resume/Resume';
 import AboutMePic from './assets/about-me.jpg';
 import ResumePic from './assets/Resume.jpg';
-import PortfolioPic from './assets/portfolio.jpg';
 import TourismPlannerPic from './assets/TourismPlanner.jpg';
 import TechBlogPic from './assets/techBlog.jpg';
 import DibsPic from './assets/dibs.jpg';
+import SecretPic from './assets/secret-image.jpg';
 
 function App() {
   const [ image, setImage ] = useState('about-me')
@@ -28,9 +28,6 @@ function App() {
       case 'resume' :
         return ResumePic;
         break;
-      case 'portfolio' :
-        return PortfolioPic;
-        break;
       case 'tour-baagii' :
         return TourismPlannerPic;
         break;
@@ -40,6 +37,9 @@ function App() {
       case 'dibs' :
         return DibsPic;
         break;
+      case 'secret-image' :
+        return SecretPic;
+        break;
     }
   }
 
@@ -47,9 +47,9 @@ function App() {
     <div className="da-body">
       <Header pickImage={pickImage}/>
       <div className='container'>
-        <img className='image' src={imageSwitch(image)}/>
+        <img className='image' src={imageSwitch(image)} alt={image} />
         <Routes>
-          <Route path="/the-best-react-portfolio" element={<AboutMe />} />
+          <Route path="/the-best-react-portfolio" element={<AboutMe pickImage={pickImage}/>} />
           <Route path="/the-best-react-portfolio/portfolio/" element={<Portfolio pickImage={pickImage}/>} />
           <Route path="/the-best-react-portfolio/contact" element={<Contact />} />
           <Route path="/the-best-react-portfolio/resume" element={<Resume />} />

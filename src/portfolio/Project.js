@@ -1,7 +1,7 @@
 import './Portfolio.css'
 
 export default function Project ({pwoject}) {
-    const { id, imageString, title, description, deployedApp, repository } = pwoject;
+    const { title, description, deployedApp, repository } = pwoject;
 
     return (
         <div>

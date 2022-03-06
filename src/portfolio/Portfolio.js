@@ -1,9 +1,16 @@
 import { useState, useEffect } from 'react';
+import { useSpring, animated } from 'react-spring';
 import projectData from '../data/projectData';
 import Project from './Project'
 import './Portfolio.css'
 
 export default function Portfolio({pickImage}) {
+    const props = useSpring({ 
+        to: { opacity: 1 }, 
+        from: { opacity: 0 },
+        delay: 200,
+    });
+
     const [ pwoject, setPwoject ] = useState({
         id: 1,
         imageString: "tour-baagii",
@@ -30,13 +37,14 @@ export default function Portfolio({pickImage}) {
             {project.imageString.toUpperCase()}
         </button>
     })
+
     return (
-        <div className="portfolio-container">
-            <h1>My Projects</h1>
-            <div className='buttons-container'>
-                {projects}
-            </div>
-            <Project pwoject={pwoject} />
-        </div>
+            <animated.div className='portfolio-container' style={props}>
+                <h1>My Projects</h1>
+                <div className='buttons-container'>
+                    {projects}
+                </div>
+                <Project pwoject={pwoject} />   
+            </animated.div>
     )
 }
