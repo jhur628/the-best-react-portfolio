@@ -5,8 +5,54 @@
     width: 50%;
 }
 
+.contact-row {
+    display: flex;
+}
+
 .contact-info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.name-input {
+    width: 50%;
+    height: 25px;
+    background-color: #375E97;
+    color: #2bcdff;
+}
+
+.email-input {
+    width: 50%;
+    height: 25px;
+    background-color: #375E97;
+    color: #2bcdff;
+}
+
+.message-input {
+    width: 50%;
+    height: 50px;
+    background-color: #375E97;
+    color: #2bcdff;
+}
+
+.form-button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #375E97;
+    color: #2bcdff;
+}
+
+.form-button:hover {
+    border: solid 2px #FFBB00;
+    color: #7cc41d;
 }

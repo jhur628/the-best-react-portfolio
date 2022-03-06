@@ -13,7 +13,7 @@ export default function Resume() {
                 Back-End Proficiencies: Node, Express, SQL, MongoDB, GraphQL
             </p>
             <p>
-                Please download my resume to see examples of my full-stack abilities!
+                Please download my resume to learn more about my abilities!
             </p>
         </div>
     )
