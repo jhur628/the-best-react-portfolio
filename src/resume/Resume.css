@@ -9,3 +9,9 @@
 .resume-container p {
     font-size: 1.1rem;
 }
+
+@media (max-width:576px) {
+    .resume-container {
+        padding: 6rem;
+    }
+}

@@ -8,3 +8,10 @@
 .about-me-container p {
     font-size: 1.05rem;
 }
+
+@media (max-width:576px) {
+    .about-me-container {
+        width: 100%;
+        padding-left: 10px;
+    }
+}

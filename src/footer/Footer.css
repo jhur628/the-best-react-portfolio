@@ -1,9 +1,10 @@
 footer {
     display: flex;
     justify-content: center;
-    margin: 4rem;
+    align-items: center;
     height: 10%;
     width: 97%;
+    margin: 4rem;
 }
 
 .footer-links {
@@ -12,4 +13,16 @@ footer {
     gap: 10px;
     align-content: space-around;
     text-decoration: none;
+}
+
+@media (max-width:576px) {
+    footer {
+        flex-direction: column;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
 }
