@@ -17,7 +17,7 @@ export default function Resume() {
             </a>
             <p>Front-End Proficiencies: HTML, CSS, front-end Javascript, React
                 <br></br>
-                Back-End Proficiencies: Node, Express, SQL, MongoDB, GraphQL
+                Back-End Proficiencies: Node, Express, SQL, MongoDB, GraphQL, Apollo Server
             </p>
             <p>
                 Please download my resume to learn more about my abilities!

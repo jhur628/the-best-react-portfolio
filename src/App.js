@@ -7,12 +7,12 @@ import AboutMe from './aboutMe/AboutMe';
 import Portfolio from './portfolio/Portfolio';
 import Contact from './contact/Contact';
 import Resume from './resume/Resume';
+import ShelfCarePic from './assets/shelf-care-home.jpg'
 import AboutMePic from './assets/about-me.jpg';
 import ResumePic from './assets/Resume.jpg';
 import TourismPlannerPic from './assets/TourismPlanner.jpg';
 import TechBlogPic from './assets/techBlog.jpg';
 import DibsPic from './assets/dibs.jpg';
-import NoteTakerPic from './assets/noteTaker.jpg';
 import RegexTutorialPic from './assets/regexTutorial.jpg'
 import SecretPic from './assets/secret-image.jpg';
 
@@ -26,28 +26,20 @@ function App() {
     switch (image) {
       case 'about-me' :
         return AboutMePic;
-        break;
       case 'resume' :
         return ResumePic;
-        break;
+      case 'shelf-care' :
+        return ShelfCarePic;
       case 'tour-baagii' :
         return TourismPlannerPic;
-        break;
       case 'tech-blog' :
         return TechBlogPic;
-        break;
       case 'dibs' :
         return DibsPic;
-        break;
-      case 'note-taker' :
-        return NoteTakerPic;
-        break;
       case 'regex-tutorial' :
         return RegexTutorialPic;
-        break;
       case 'secret-image' :
         return SecretPic;
-        break;
     }
   }
 
